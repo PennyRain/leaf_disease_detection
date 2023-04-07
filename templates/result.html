@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Leaf Disease Detection - Result</title>
+  </head>
+  <body>
+    <h1>Leaf Disease Detection</h1>
+    <h2>Prediction result:</h2>
+    {% if result == 0 %}
+      Bacterial leaf blight
+    {% elif result == 1 %}
+      Brown spot
+    {% elif result == 2 %}
+      Leaf smut
+    {% endif %}
+    <br>
+    <a href="/">Upload another image</a>
+  </body>
+</html>
