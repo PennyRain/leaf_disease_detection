@@ -1,0 +1,57 @@
+/* Custom styles for Leaf Disease Detection app */
+
+/* Center the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Make the header fixed at the top with a background color */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    padding: 1rem;
+  }
+  
+  /* Add some margin to the content */
+  main {
+    margin-top: 5rem;
+  }
+  
+  /* Add some styles to the form and file input */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  input[type="file"] {
+    margin-top: 1rem;
+  }
+  
+  /* Add some styles to the result page */
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .result h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .result a {
+    margin-top: 1rem;
+  }
+  
