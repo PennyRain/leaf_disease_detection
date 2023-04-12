@@ -1,57 +1,157 @@
-/* Custom styles for Leaf Disease Detection app */
 
 /* Center the container */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Add some styles to the form and file input */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+input[type="file"] {
+  margin-top: 1rem;
+}
+
+/* Add some styles to the result page */
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.result h2 {
+  margin-bottom: 1rem;
+}
+
+.result a {
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.img-thumbnail {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.mb-3 {
+  max-width: 350px !important;
+  max-height: 400px !important;
+}
+
+#selectedImage {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
   
-  /* Make the header fixed at the top with a background color */
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #0d6efd;
-    color: white;
-    padding: 1rem;
-  }
-  
-  /* Add some margin to the content */
-  main {
-    margin-top: 5rem;
-  }
-  
-  /* Add some styles to the form and file input */
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  
-  input[type="file"] {
-    margin-top: 1rem;
-  }
-  
-  /* Add some styles to the result page */
-  .result {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-  }
-  
-  .result h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .result a {
-    margin-top: 1rem;
-  }
-  
+header {
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+input[type="file"] {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="file"]:hover {
+  background-color: #eee;
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.file-upload {
+display: inline-block;
+}
+
+.custom-file-upload {
+border: 1px solid #ccc;
+display: inline-block;
+padding: 6px 12px;
+cursor: pointer;
+}
+
+.custom-file-upload:hover {
+background-color: #ddd;
+}
+
+#fileInput {
+display: none;
+}
+
+
+/* Style cho button upload file */
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #343a40;
+}
+
+.custom-file-upload:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Style cho container chứa hình ảnh được chọn */
+.img-thumbnail {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* Style cho tên tệp được chọn */
+.text-muted {
+  font-size: 1rem;
+}
+
+/* Style cho button submit */
+.btn-primary {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #66fa70;
+  color: #343a40;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #343a40;
+  color: #fff;
+}
