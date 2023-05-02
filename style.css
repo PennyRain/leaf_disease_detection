@@ -20,6 +20,7 @@ form {
 
 input[type="file"] {
   margin-top: 1rem;
+  display: none;
 }
 
 /* Add some styles to the result page */

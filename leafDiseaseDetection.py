@@ -11,7 +11,7 @@ from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.utils import plot_model
 
-data_dir = './kaggle/input/rice_leaf_diseases/'
+data_dir = './input/rice_leaf_diseases/'
 data_dir = pathlib.Path(data_dir)
 images = list(data_dir.glob('*DSC*.jpg'))
 
